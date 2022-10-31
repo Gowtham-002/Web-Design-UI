@@ -1,0 +1,13 @@
+log-container {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  background: linear-gradient(45deg,transparent,var(--color-primary),transparent);
+  display: grid;
+  place-item: center;
+  overflow: hidden;
+  transform: rotate(10deg);
+  transition: var(--transition);
+  transform: rotate(0);
+}
+
